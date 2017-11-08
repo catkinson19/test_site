@@ -6,7 +6,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>testpage2.html</title>
+  <title>testpage3.html</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -31,25 +31,27 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
+      <div class="one-half column" style="margin-top: 25%">
+        <h4>Links</h4>
+        <a href="testpage1.html" id="testpage1">testpage 1</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="testpage2.html" id="testpage2">testpage 2</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="testpage3.html" id="testpage3">testpage 3</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="testpage4.html" id="testpage4">testpage 4</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="index.html" id="index">home</a>
+        <hr>
+        <a href="https://plainjs.com/javascript/?pagi=2" id="plainjs">plain JS</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="https://www.sarahwinkler.com/" id="sarahwinkler">Sarah Winkler</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="https://www.nasa.gov/mission_pages/station/main/index.html" id="iss">International Space Station</a>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
       <hr>
       <div id="newVars">
       </div>
     </div>
   </div>
   </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function () {
-      $("#submit").on("click", function () {
-        let name = $("#name").val().trim();
-        let password = $("#password").val().trim();;
-        $("#newVars").append(name);
-        $("#newVars").append(password);
-        return false;
-      });
-    });
-  </script>
-
   <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>

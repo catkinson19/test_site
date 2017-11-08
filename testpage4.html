@@ -6,7 +6,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>testpage4.html</title>
+  <title>testpage3.html</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -32,37 +32,6 @@
   <div class="container">
     <div class="row">
       <div class="one-half column" style="margin-top: 25%">
-        <form>
-          <section>
-            <legend>
-              <h4>Don't XSS Me Bro
-                <h4>
-            </legend>
-            <p>
-              <label for="name">
-                <span>
-                  <h6>Name:</h6>
-                </span>
-              </label>
-              <input type="text" id="name" name="username">
-            </p>
-            <p>
-              <label for="passord">
-                <span>
-                  <h6>Password:</h6>
-                </span>
-              </label>
-              <input type="text" id="password" name="password">
-            </p>
-          </section>
-          <section>
-            <p>
-              <button type="submit" id="submit">Submit</button>
-            </p>
-          </section>
-        </form>
-      </div>
-      <div class="one-half column" style="margin-top: 25%">
         <h4>Links</h4>
         <a href="testpage1.html" id="testpage1">testpage 1</a>&nbsp;&nbsp;|&nbsp;&nbsp;
         <a href="testpage2.html" id="testpage2">testpage 2</a>&nbsp;&nbsp;|&nbsp;&nbsp;
@@ -83,19 +52,6 @@
     </div>
   </div>
   </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function () {
-      $("#submit").on("click", function () {
-        let name = $("#name").val().trim();
-        let password = $("#password").val().trim();;
-        $("#newVars").append(name);
-        $("#newVars").append(password);
-        return false;
-      });
-    });
-  </script>
-
   <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
